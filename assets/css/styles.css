@@ -19,7 +19,9 @@ p {
     background-color: rgba(53, 43, 99, 0.329);
     display: flex;    
     text-align:center;
-    border: 2pxsolid #33a9db36;
+    border: 2px solid #33a9db36;
+    width: 100vw;
+    height: auto;
 }
 
 
