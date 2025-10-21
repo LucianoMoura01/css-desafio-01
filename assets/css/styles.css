@@ -17,24 +17,19 @@ p {
     background-size: cover;
     background-position: left;
     background-color: rgba(53, 43, 99, 0.329);
-    object-fit: contain;
-    
+    display: flex;    
+    text-align:center;
+    border: 2pxsolid #33a9db36;
 }
 
 
-.banner .banner-content {
-    background-image: url(../images/logo.png);
-    object-fit: cover;
-    object-position: 50% 40%;
-    width: 200px;
-    height: 200px;
+.logo{
+    /*background-image: url(../images/logo.png);*/
+    width: 100%;
+    height: auto;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(0, 0, 255, 1);
-    background-position: center;
-    background-size: cover;
-    border-radius: 100%;
 
 }
 
