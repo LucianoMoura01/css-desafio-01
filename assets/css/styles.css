@@ -68,6 +68,12 @@ button {
     cursor: pointer;
 }
 
+button:active {
+    background-color: #33A8DB;
+    color: black;
+    font-weight: bolder;
+}
+
 #course-content {
     margin: 0 auto;
     width: 50%;
@@ -102,11 +108,20 @@ span {
 #transform-world  p {
     max-width: 20%;
     color: white;
-    text-shadow: 2px 2px 4px #fff;
+    font-weight: bolder;
+    text-shadow: 3px 4px 6px rgb(139, 182, 207);
     text-transform: lowercase;
     text-align: left;
     font-size: 30px;
-    margin: 20px;
+    margin: 130px;
+}
+
+#professional-challenges h2 {
+    margin-top: 20px;
+}
+#professional-challenges p {
+    width: 50%;
+    margin: 0 auto;
 }
 
 a {
