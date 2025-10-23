@@ -12,8 +12,21 @@ p {
     color: white;
 }
 
+header, main, footer {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner-content > p {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
 .banner {
     background-image: url(../images/banner.png);
+    max-width: 100%;
     background-size: cover;
     background-position: left;
     background-color: rgba(53, 43, 99, 0.329);
@@ -21,24 +34,22 @@ p {
     
 }
 
-
-.banner .banner-content {
-    background-image: url(../images/logo.png);
-    object-fit: cover;
-    object-position: 50% 40%;
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(0, 0, 255, 1);
-    background-position: center;
-    background-size: cover;
-    border-radius: 100%;
-
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
+.logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 button {
+    margin-top: 20px;
     color:#33A8DB;
     letter-spacing: 4px;
     text-transform: uppercase;
