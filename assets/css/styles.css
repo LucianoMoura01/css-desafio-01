@@ -6,6 +6,16 @@ body{
 
 h1{ 
     font-weight: bolder;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Raleway;
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
 }
 
 h1, h2, span {
@@ -31,11 +41,12 @@ header, main, footer {
     width: 50%;
 }
 .banner {
-    background-image: url(../images/banner.png);
+    background-image: 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%),
+        url(../images/banner.png);
     max-width: 100%;
     background-size: cover;
     background-position: left;
-    background-color: rgba(53, 43, 99, 0.329);
     object-fit: contain;
     
 }
@@ -77,6 +88,7 @@ button:active {
 #course-content {
     margin: 0 auto;
     width: 50%;
+    
 }
 #course-content  p {
     margin-bottom: 20px;
@@ -124,7 +136,14 @@ span {
     margin: 0 auto;
 }
 
+footer {
+    border-top: 1px solid rgba(51, 168, 219, 1);
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+
+}
+
 a {
     text-decoration: none;
     color: yellow;
 }
+
